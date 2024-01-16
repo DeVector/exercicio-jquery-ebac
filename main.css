@@ -63,3 +63,7 @@ ul li{
 ul li:hover {
     cursor: pointer;
 }
+
+.linha-tracada {
+    text-decoration: line-through;
+}

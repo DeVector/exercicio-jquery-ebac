@@ -13,9 +13,8 @@ $(document).ready(function() {
 
     })
 
-    $('ul li').click(function (e) { 
+    $('ul').on('click', 'li', function (e) { 
         e.preventDefault();
-        
-        console.log('cliquei');
+        $(this).toggleClass('linha-tracada');
     });
 })
